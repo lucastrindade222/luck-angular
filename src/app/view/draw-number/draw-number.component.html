@@ -1,0 +1,23 @@
+<form (ngSubmit)="openDialog()" #myForm="ngForm">
+
+ 
+
+
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Quantos numeros a ser sorteados</mat-label>
+    <input  name="valor" [(ngModel)]="valor"   matInput placeholder="Quantos numeros a ser sorteados" value="1">
+  </mat-form-field>
+
+
+
+  <button type="submit" mat-raised-button color="primary">Salvar</button>
+  
+
+
+</form>
+ 
+
+
+
+
